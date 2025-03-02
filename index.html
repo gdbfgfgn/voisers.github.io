@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voiser - Официальный Сайт Загрузки</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #673AB7;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .download-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .platform-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            color: #673AB7;
+            border: 2px solid #673AB7;
+            padding: 15px 30px;
+            margin: 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .platform-button:hover {
+            background: #673AB7;
+            color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .platform-button i {
+            margin-right: 10px;
+            font-size: 1.3em;
+        }
+
+        .features-section {
+            margin-top: 50px;
+        }
+
+        .feature {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .feature:last-child {
+            border-bottom: none;
+        }
+
+        .feature h3 {
+            color: #673AB7;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .platform-button.disabled {
+            background-color: #ccc;
+            color: #666;
+            border-color: #ccc;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        .platform-button.disabled:hover {
+            background-color: #ccc;
+            color: #666;
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Voiser</h1>
+        <p>Общайтесь с друзьями и близкими безопасно и удобно.</p>
+    </header>
+
+    <div class="container">
+        <h2>Загрузите Voiser для вашего устройства</h2>
+        <p>Voiser доступен на разных платформах, чтобы вы могли оставаться на связи, где бы вы ни находились.</p>
+
+        <div class="download-section">
+            <!-- ВАЖНО: Замените '#' на прямую ссылку на APK-файл для Android -->
+            <a href="#" class="platform-button android-download">
+                <i class="fab fa-android"></i> Android
+            </a>
+
+            <!-- ВАЖНО: Замените '#' на прямую ссылку на IPA-файл для iOS -->
+            <a href="#" class="platform-button ios-download">
+                <i class="fab fa-apple"></i> iOS
+            </a>
+
+            <!-- ЗАМЕНИЛИ '#' на ПРЯМУЮ ССЫЛКУ DROPBOX -->
+            <a href="https://www.dropbox.com/scl/fi/sgtyajugtd1gb5xuk0dk8/voiser.exe?rlkey=hip8kgbt1bomjok5rsvjwzjix&st=55otlv4i&dl=1" class="platform-button windows-download">
+                <i class="fab fa-windows"></i> Скачать Windows
+            </a>
+
+            <!-- ВАЖНО: Замените '#' на прямую ссылку на DEB-файл для Linux (Debian/Ubuntu) -->
+            <a href="#" class="platform-button linux-deb-download">
+                <i class="fab fa-linux"></i> Linux (Deb)
+            </a>
+
+             <!-- ВАЖНО: Замените '#' на прямую ссылку на RPM-файл для Linux (Fedora/Red Hat) -->
+            <a href="#" class="platform-button linux-rpm-download">
+                <i class="fab fa-linux"></i> Linux (RPM)
+            </a>
+
+            <!-- ВАЖНО: Замените '#' на прямую ссылку на DMG-файл для macOS -->
+            <a href="#" class="platform-button macos-download">
+                <i class="fab fa-desktop"></i> macOS
+            </a>
+        </div>
+
+        <section class="features-section">
+            <h2>Ключевые особенности Voiser</h2>
+            <div class="feature">
+                <h3>Безопасные Сообщения</h3>
+                <p>Voiser использует сквозное шифрование для защиты вашей переписки от посторонних глаз.</p>
+            </div>
+            <div class="feature">
+                <h3>Голосовые Сообщения</h3>
+                <p>Отправляйте голосовые сообщения быстро и легко, когда у вас нет времени печатать.</p>
+            </div>
+            <div class="feature">
+                <h3>Групповые Чаты</h3>
+                <p>Создавайте группы и общайтесь с друзьями, семьей и коллегами.</p>
+            </div>
+            <div class="feature">
+                <h3>Обмен Файлами</h3>
+                <p>Делитесь фотографиями, видео и другими файлами с вашими контактами.</p>
+            </div>
+            <div class="feature">
+                <h3>Кроссплатформенность</h3>
+                <p>Voiser работает на всех ваших устройствах, позволяя вам оставаться на связи, где бы вы ни находились.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2023 Voiser | <a href="#">Политика конфиденциальности</a> | <a href="#">Условия использования</a>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            function setDownloadLink(buttonClass, downloadURL) {
+                const button = document.querySelector('.' + buttonClass);
+                if (button) {
+                    button.href = downloadURL;
+                     if(downloadURL == ""){
+                        button.classList.add('disabled');
+                    }else{
+                        button.classList.remove('disabled');
+                    }
+
+                }
+            }
+
+            const androidURL = "";
+            const iosURL = "";
+            const windowsURL = "https://www.dropbox.com/scl/fi/sgtyajugtd1gb5xuk0dk8/voiser.exe?rlkey=hip8kgbt1bomjok5rsvjwzjix&st=55otlv4i&dl=1";
+            const linuxDebURL = "";
+            const linuxRpmURL = "";
+            const macosURL = "";
+
+            setDownloadLink('android-download', androidURL);
+            setDownloadLink('ios-download', iosURL);
+            setDownloadLink('windows-download', windowsURL);
+            setDownloadLink('linux-deb-download', linuxDebURL);
+            setDownloadLink('linux-rpm-download', linuxRpmURL);
+            setDownloadLink('macos-download', macosURL);
+
+             const downloadButtons = document.querySelectorAll('.download-section a');
+                downloadButtons.forEach(button => {
+                    if (button.href === "#") {
+                        button.classList.add('disabled');
+                    }
+                });
+
+        });
+    </script>
+
+</body>
+</html>
